@@ -2,7 +2,7 @@ package me.kmheibel.khsfgpetclinic.model;
 
 import java.time.LocalDate;
 
-public class Pet {
+public class Pet extends BaseEntity {
 
     private LocalDate birthDate;
     private Owner owner;

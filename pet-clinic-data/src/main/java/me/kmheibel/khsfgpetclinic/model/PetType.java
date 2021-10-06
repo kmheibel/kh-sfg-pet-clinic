@@ -1,7 +1,14 @@
 package me.kmheibel.khsfgpetclinic.model;
 
-public enum PetType {
+public class PetType {
 
-    CAT,
-    DOG
+    private String name;
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
 }
